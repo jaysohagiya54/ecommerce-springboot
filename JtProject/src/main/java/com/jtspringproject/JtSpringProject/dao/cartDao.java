@@ -16,6 +16,8 @@ public class cartDao {
 
     public void setSessionFactory(SessionFactory sf) {
         this.sessionFactory = sf;
+
+        
     }
 
     @Transactional
